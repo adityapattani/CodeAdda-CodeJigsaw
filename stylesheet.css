@@ -1,0 +1,187 @@
+.navbar-header img {
+	margin-top: 5px;
+	margin-left: 6px;
+	width: 60px;
+	height: 60px;
+}
+
+#eventname {
+    font-size: +28px;
+    margin-top: 14px;
+    color: #fafafa;
+    font-family: Raleway;
+}
+
+#left-puzzle {
+    background: #E0E0E0;
+	position: relative;
+	height: 100%;
+	border-right: 2px solid #fafafa;
+    border-radius: 10px;
+    min-width: 70%;
+    min-height: 80%;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../bootstrap/fonts/Raleway.ttf");
+}
+
+#right-code {
+	background: #616161;
+	height: 100%;
+    font-family: Raleway;
+    border-radius: 10px;
+}
+
+#right-code p {
+	font-size: +35px;
+	color: #EEEEEE;
+	margin-top: 35%;
+	margin-bottom: 30px;
+}
+
+#bottom-footer {
+	background: #212121;
+	height: 45px;
+	bottom: 0px;
+	box-shadow: 0px -2px #bdbdbd;
+	border-top: 2px solid #fafafa;
+}
+
+#bottom-footer p {
+	color: #fafafa;
+	font-size: +18px;
+	margin-top: 10px;
+    font-family: Raleway;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
+    background: #212121;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+
+#one {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#two {
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+#three {
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+#four {
+    margin-left: 100px;
+    margin-top: 220px;
+}
+
+#five {
+    margin-left: 350px;
+    margin-top: 220px;
+}
+
+#six {
+    margin-left: 600px;
+    margin-top: 220px;
+}
+
+#seven {
+    margin-left: 100px;
+    margin-top: 420px;
+}
+
+#eight {
+    margin-left: 350px;
+    margin-top: 420px;
+}
+
+#nine {
+    margin-left: 600px;
+    margin-top: 420px;
+}
+
+#adjuster {
+    height: 30%;
+}
+
+#hero-image {
+    width: 778px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: -30px;
+    position: absolute;
+}
+
+#img-container {
+    height: 99%;
+    position: absolute;
+    margin-left: 100px;
+}
+
+#uncode {
+    width:100%;
+    height: 5%;
+    text-align: center;
+    font-size: +20px;
+}
+
+#go {
+    background: #3949AB;
+    width: 30%;
+    height: 6%;
+    color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    font-size: +20px;
+    transition: 0.3s;
+    outline: none;
+}
+
+#go:hover {
+    background: #4CAF50;
+    color: #212121;
+    transition: 0.3s;
+}
+
+#go:active {
+    background: #009688;
+}
+
+#answer {
+    height: 7%;
+    font-size: +19px;
+    border-radius: 10px;
+    border: none;
+    background: #F4511E;
+    color: #FAFAFA;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: 0.3s;
+    outline: none;
+}
+
+#answer:hover {
+    background: #FFB300;
+    color: #212121;
+    transition: 0.3s;
+}
+
+#answer:active {
+    background: #f44336;
+    color: #eeeeee;
+}
+
+#uncode {
+    height: 6%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
